@@ -1,0 +1,48 @@
+
+
+body {
+    background-color: #fdfd69;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Nanum Pen Script";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #eead2d;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: "nanum pen script";
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
+
+.img_igr{
+    width: 20%;
+    border-radius: 2%;
+}
+
+.link{
+    text-decoration: none;
+}

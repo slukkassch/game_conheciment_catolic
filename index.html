@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link usaveis-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/bandeira do vaticano.svg" type="image/x-icon">
+    <!--Fim-->
+    <title>Uma Jornada de Fé: Uma História da Igreja Católica</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você conhece a igreja Católica? vamos conhecer está linda igreja!</p>
+            <p>Vamos começar conhecendo lugares com essa doutrina:</p>
+            <button class="avace" data-proximo="1">Vaticano</button>
+            <button class="avace" data-proximo="2">França</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A sede da Igreja Católica, localizada em Roma, Itália. Os fiéis podem visitar a Basílica de São Pedro e o Museu do Vaticano, que tem uma coleção de arte e artefatos religiosos.</p>
+            <button class="avace" data-proximo="3">Investigar as igrejas.</button>
+            <button class="avace" data-proximo="4">Explorar a história dos Santos Católicos.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Lourdes é um importante local de peregrinação, onde a Virgem Maria teria aparecido a uma jovem em 1858. A cidade recebe milhões de peregrinos todos os anos que procuram cura e consolo espiritual.</p>
+            <button class="avace" data-proximo="5">Partiu Vaticano</button>
+            <button class="avace" data-proximo="6">Partiu França</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nos primeiros séculos, a Igreja Católica enfrentou muitas perseguições, mas a fé dos cristãos se fortaleceu. Os apóstolos, liderados por Pedro, a quem Jesus confiou as chaves do Reino dos Céus, estabeleceram as bases da Igreja. Concílios ecumênicos foram realizados para definir a doutrina e enfrentar heresias.</p>
+            <ul>
+                <li>
+                    <p>Notre Dame de Paris, França: Um dos ícones da arquitetura gótica, a Notre Dame sofreu um incêndio devastador em 2019, mas está sendo reconstruída.</p>
+                    <img class="img_igr" src="img/Notre dame.jpeg" alt="notre dame de Paris.">
+                </li>
+
+                <li>
+                    <p>Catedral de Colônia, Alemanha: Uma das maiores catedrais góticas do mundo, com suas duas torres gêmeas que dominam o horizonte da cidade.</p>
+                    <img class="img_igr" src="img/catedral de colonia.jpeg" alt="Igreja de Colônia na Alemanha.">
+                </li>
+            </ul>
+            <button class="avace" data-proximo="7">Bora para Notre Dame em Paris.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Uma Vida Consagrada à Oração e ao Trabalho:</p>
+            <img class="img_igr" src="img/sao bento de nursia.jpeg" alt="Imagem de São Bento">
+            <p>Após uma juventude marcada pela busca espiritual, São Bento se retirou para uma caverna nas montanhas, onde viveu como eremita por vários anos. Sua fama de santidade atraiu discípulos, e ele fundou o Mosteiro de Monte Cassino, no sul da Itália.</p>
+                
+            <p>A Regra de São Bento, um conjunto de normas para a vida monástica, se tornou um modelo para inúmeras ordens religiosas ao longo dos séculos. A regra enfatizava a importância da oração, do trabalho manual, da obediência e da vida comunitária. O lema beneditino "Ora et labora" (Ora e trabalha) resume a essência desse modo de vida.</p>
+            <p>Você decide que o conhecimento é muito complexos e você não tem a coragem de encarrar essas filosofias extremas.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A história do Vaticano está intrinsecamente ligada à história da Igreja Católica. O local onde hoje se encontra o Vaticano era originalmente ocupado por um circo romano. No século IV, o imperador Constantino o Grande construiu uma basílica dedicada ao apóstolo Pedro, que se tornou um importante centro de peregrinação. Com o passar dos séculos, o poder da Igreja cresceu e o Papa se tornou uma figura política influente na Europa. Em 1929, os Tratados de Latrão estabeleceram o Estado da Cidade do Vaticano, garantindo sua independência e soberania.</p>
+            <img class="img_igr" src="img/praça de sao pedro.jpeg" alt="Praça de São Pedro no Vaticano.">
+            <div>
+                <button class="avace" data-proximo="7">Viajar para o Vaticano.</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A Catedral de Notre Dame de Paris é um dos monumentos mais icônicos da França e um dos símbolos mais reconhecidos da arquitetura gótica mundial. Localizada na Île de la Cité, no coração de Paris, a catedral foi construída entre 1163 e 1345 e dedicada à Virgem Maria.</p>
+            <img class="img_igr" src="img/Notre dame.jpeg" alt="Igreja Notre Dame na França.">
+            <div>
+                <button class="avace" data-proximo="8">Voltar e explorar as igrejas</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Catedral de Notre Dame:</p>
+            <p>Ícone da cidade e um dos exemplos mais famosos da arquitetura gótica, a Catedral de Notre Dame, antes do incêndio de 2019, era um ponto de referência para visitantes do mundo todo. Sua reconstrução está em andamento, mas sua imagem continua sendo um símbolo da França.</p>
+            <img class="img_igr" src="img/vaticano.jpeg" alt="imagem do Vaticano.">
+            <div>
+                <button class="avace" data-proximo="9">Seguir pela entrada à esquerda</button>
+                <button class="avace" data-proximo="10">Seguir pela entrada à direita</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O Vaticano e Notre Dame de Paris, apesar de suas localizações distintas e papéis específicos, compartilham um elo profundo: a fé católica. Ambos são símbolos poderosos da Igreja Católica e atraem milhões de visitantes anualmente.</p>
+            <button class="avace" data-proximo="7">Ir em frente para as duas igrejas.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você usou uma máquina de teletranspore e chegou em um país desconhecido que há uma junção das igrejas do Vaticano e da França, com toda a sua fé você se reconecta com o nosso Senhor Jesus.</p>
+            <button class="avace" data-proximo="11">Explorar este país desconhecido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>você segue pela porta à direita, encontra uma imagem de um Santo chamado São Tarcísio conhecido como o Padroeiro dos Coroinhas; Acólitos e Cerimoniários.</p>
+            <img class="img_igr" src="img/sao tarcisio.jpeg" alt="Imagens do Santo São Tarcísio.">
+            <p>O Ato de Fé e o Martírio:</p>
+            <p>Durante uma dessas missões, Tarcísio foi atacado por pagãos que queriam impedir a distribuição da Eucaristia. Mesmo ferido, ele se recusou a entregar os sagrados elementos, preferindo morrer a trair sua fé. Seus algozes o apedrejaram até a morte, mas ele morreu com um sorriso nos lábios, demonstrando sua alegria por ter dado a vida por Cristo.</p>
+            <button class="avace" data-proximo="12">Retornar e tentar outra entrada</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img class="img_igr" src="img/carlo acutis.jpeg" alt="Imagem do Santo Carlo Acutis o Padroeiro da Internet.">
+            <p>Dentro deste país você encontra uma imagem de um novo Santo Católico chamado Beato Carlo Acutis o Padroeiro da Internet a história é a seguinte:</p>
+                <p>Uma Vida Consagrada a Deus:</p>
+                <p>Nascido em Londres em 1991 e falecido em 2006, Carlo desde pequeno demonstrou uma fé profunda e um amor especial pela Eucaristia. Ele passava horas pesquisando e catalogando milagres eucarísticos, criando um site para compartilhar suas descobertas com outras pessoas. Carlo também era um jovem alegre e caridoso, sempre disposto a ajudar os outros.</p>
+                <p>Você percebe que não está preparado para a aventura e resolve volrar para o início.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a entrada à esquerda, você finalmente vai entar no país perdido e conhecer mais sobre toda essa doutrina.</p>
+            <button class="avace" data-proximo="11">Explorar o país perdido</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
